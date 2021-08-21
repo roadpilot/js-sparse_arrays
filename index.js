@@ -42,6 +42,8 @@ function matchingStrings(strings, queries) {
         }
     }
     return results
+    // ALT:
+    // return queries.map((query) => strings.filter(s => s === query).length);
 }
 
 function main() {
